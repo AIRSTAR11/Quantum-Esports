@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: gray;
+    color: #1eff00;
+
+
+    Background-image ;
+    background: url('images/background.jpg') no-repeat center center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+
+/* Navigation Bar */
+nav {
+    background-color: #000000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav .logo {
+    font-size: 1.8em;
+    color: #00ff22;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 100px;
+}
+
+nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section with Background */
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 150px 20px;
+    background: url('Untitled\ \(Website\).svg') no-repeat center center/contain;
+    background-color: #000;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+/* Overlay for better contrast */
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30vh;
+}
+
+.hero h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    color: #121212;
+    background-color: #00ff85;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #00cc6f;
+}
+
+/* Game Showcase */
+.platforms {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.platform img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Giveaway Section */
+.giveaway {
+    text-align: center;
+    padding: 50px;
+    background: #1a1a1a;
+}
+
+.giveaway-box {
+    padding: 20px;
+    border: 2px solid #00ff85;
+}
+
+.giveaway button {
+    padding: 10px 20px;
+    background-color: #00ff85;
+    border: none;
+    color: #121212;
+    cursor: pointer;
+}
+
+/* Newsletter */
+.newsletter {
+    text-align: center;
+    padding: 50px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #00ff85;
+    border: none;
+    color: #121212;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color:rgb(255, 255, 255);
+}
